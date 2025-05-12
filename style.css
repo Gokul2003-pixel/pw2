@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: url('image.jpg');
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main{
+    min-height: 100vh;
+ 
+    
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    
+}
+
+.header .head1{
+    display: flex; 
+    padding-left: 90px;
+}
+
+.header .head1 h3{
+    font-size: 2em;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.2s;
+}
+.head1 h3:hover{
+    text-shadow: 10px 10px 580px rgb(255, 255, 255 );
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+}
+
+.header .head2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 80px;
+ }
+
+ .head2 h3{
+    padding: 5px 15px;
+    font-weight: 200;
+    transition: 0.3s;
+ }
+    .head2 h3:hover{
+        letter-spacing: 0.2px;
+        
+    }
+
+ .head2 button{
+    border-radius: 40px;
+    padding: 2px 10px;
+    color: rgb(250, 250, 252);
+    background-color: rgb(64, 240, 225);
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+ }
+
+ .head2 button:hover{
+    background-color: rgb(252, 255, 255);
+    color: black;
+    cursor: pointer;
+ }
+
+ .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+ }
+
+ .content h3{
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 2px;
+    padding-top: 65px;
+    font-weight: 400;
+    font-size: 1.5em;
+ }
+
+ .content h4{
+    margin-left: -140px;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 18px;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 0.9px;
+    text-shadow: 1px 1px 18px rgb(123, 128, 128);
+ }
+
+ .content h2{
+    margin-left: px;
+    font-size: 2.5em;
+    font-weight: 700;
+   
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 0.9px;
+    text-shadow: 1px 1px 18px rgb(123, 128, 128);
+ }
+
+ .content h1{
+    margin-left: 80px;
+    word-spacing: 4px;
+    letter-spacing: 0.9px;
+    text-shadow: 1px 1px 18px rgb(123, 128, 128);
+ }
+
+ .image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(boySui.jpg);
+    background-size: cover;
+   
+    margin-left: 150px;
+    box-shadow: 1px 1px 18px rgb(215, 209, 209);
+ }
+ .image:hover{
+    box-shadow: 1px 2px 30px rgb(162, 239, 233);
+    
+ }
+
+.leftside{
+    position: absolute;
+    position: fixed;
+   display: flex;
+   margin: 28px;
+   
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 180px;
+   background-color: #ffffff;
+   border-radius: 50px;
+   border: 1px solid rgb(2, 8, 60);
+    box-shadow: 1px 1px 18px rgb(215, 209, 209);
+    transition: 0.3s;
+  
+}
+.leftside:hover{
+     
+      box-shadow: 1px 1px 28px rgb(64, 240, 225);
+      cursor: pointer;
+}
+i{
+    font-size: 25px;
+    color: rgb(6, 2, 51);
+    padding: 8px 0px;
+    border: 1cm;
+    transition: 0.3s;
+   
+}
+i:hover{
+    color: rgb(64, 240, 225);
+    cursor: pointer;
+    font-size: 28px;
+}
+
+/*? service section */
+
+.service{
+    min-height: 100vh;
+    
+    min-width: 100vw;
+    background-color: rgb(247, 244, 244);
+    color: navy;
+    
+
+}
+
+.serHead{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.serHead h4{
+    color: navy;
+    font-size: 1.5em;
+}
+
+.serHead h3{
+    color: navy;
+    font-size: 2em;
+}
+
+.cardArea{
+    
+    max-width: 80vw;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10vw;
+    
+}
+.cardArea .card{
+    width: 220px;
+    height: 280px;
+   
+    
+    background-color: rgb(2, 8, 60);
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 18px rgb(215, 209, 209);
+    transition: 0.3s;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 8px rgb(34, 35, 35);
+}
+
+.cardArea .card:hover{
+    box-shadow: 1px 1px 28px rgb(64, 67, 67);
+    cursor: pointer;
+    color: rgb(2, 8, 60);
+    background-color: rgb(254, 255, 255);
+    i {
+        color: rgb(2, 8, 60);
+    }
+    h3{
+        color: rgb(2, 8, 60);
+    }
+    p {
+        color: rgb(2, 8, 60);
+    }
+}
+
+.cardArea .card i{
+    color: rgb(255, 253, 253);
+    font-size: 30px;
+}
+
+.cardArea .card h3{
+    font-size: 15px;
+    font-weight: 800;
+}
+.cardArea .card p{
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+}
